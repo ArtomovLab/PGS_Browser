@@ -1,8 +1,10 @@
 # PGS Browser
 
-This repository stores Docker wrapper script that allows to run `pgsb-cli` script inside of the container.
+The script computes raw, predicted, and ancestry-adjusted PGS with corresponding percentiles and standard deviations for each sample using a chosen PGS model from browser.<br>
 
-The CLI computes raw, predicted, and ancestry-adjusted PGS with corresponding percentiles and standard deviations for each sample using a chosen PGS model from browser.<br>
+For more details, see: https://pgs.nchigm.org/
+
+Note: this repository stores Docker wrapper script that allows to run `pgsb-cli` script inside of the container.
 
 #### **Input**
   - `--vcf` or `--bfile` - individual-level genetic data in .vcf or plink format
@@ -42,9 +44,6 @@ Example:
  - `predicted_ancestry.tsv` - Predicted continental population (see 1000G) and corresponding probability.<br>
 
 For more details, see the video tutorial at `pgs.nchigm.org`.
-
-### **PGS Browser (GUI)**
-see: https://pgs.nchigm.org/
 
 ### **License**
 
