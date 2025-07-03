@@ -2,7 +2,7 @@
 
 The script computes raw, predicted, and ancestry-adjusted PGS with corresponding percentiles and standard deviations for each sample using a chosen PGS model from browser.<br>
 
-For more details, see: https://pgs.nchigm.org/
+For more details, see "Documentation"" page: https://pgs.nchigm.org/
 
 Note: this repository stores Docker wrapper script that allows to run `pgsb-cli` script inside of the container.
 
